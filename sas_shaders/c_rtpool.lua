@@ -1,12 +1,6 @@
---
--- c_rtpool.lua
---
 
 scx, scy = guiGetScreenSize ()
 
------------------------------------------------------------------------------------
--- Pool of render targets
------------------------------------------------------------------------------------
 RTPool = {}
 RTPool.list = {}
 
@@ -17,15 +11,12 @@ function RTPool.frameStart()
 end
 
 function RTPool.GetUnused( sx, sy )
-	-- Find unused existing
 	for rt,info in pairs(RTPool.list) do
 		if not info.bInUse and info.sx == sx and info.sy == sy then
 			info.bInUse = true
 			return rt
 		end
 	end
-	-- Add new
-	--outputDebugString( "creating new RT " .. tostring(sx) .. " x " .. tostring(sx) )
 	local rt = dxCreateRenderTarget( sx, sy )
 	if rt then
 		RTPool.list[rt] = { bInUse = true, sx = sx, sy = sy }
@@ -41,10 +32,6 @@ function RTPool.clear()
 end
 
 
------------------------------------------------------------------------------------
--- DebugResults
--- Store all the rendertarget results for debugging
------------------------------------------------------------------------------------
 DebugResults = {}
 DebugResults.items = {}
 
