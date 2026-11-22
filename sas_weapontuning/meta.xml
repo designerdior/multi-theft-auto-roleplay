@@ -1,0 +1,38 @@
+<meta>
+    <script src="sourceC.lua" type="client" />
+    <script src="sourceS.lua" type="server" />
+    
+    <export function="setWeaponStickerC" type="client" />
+    <export function="setObjectPaintjobC" type="client" />
+    <export function="setStickerOnWeapon" type="server" />
+    <export function="removeWeaponStickers" type="server" />
+    <export function="setObjectPaintjob" type="server" />
+    <export function="removeStickerFromObject" type="server" />
+
+    <file src="texturechanger.fx" />
+    <file src="ak/camo.png" />
+    <file src="ak/camo2.png" />
+    <file src="ak/camo3.png" />
+    <file src="ak/gold.png" />
+    <file src="ak/gold2.png" />
+    <file src="ak/kitty.png" />
+    <file src="ak/silver.png" />
+    <file src="deagle/camo.png" />
+    <file src="deagle/gold.png" />
+    <file src="knife/knife1.png" />
+    <file src="knife/knife2.png" />
+    <file src="knife/knife3.png" />
+    <file src="mp5/mp51.png" />
+    <file src="mp5/mp52.png" />
+    <file src="mp5/mp53.png" />
+    <file src="mp5/mp54.png" />
+    <file src="silenced/camo.png" />
+    <file src="sniper/camo.png" />
+    <file src="sniper/camo2.png" />
+    <file src="tec/tec1.png" />
+    <file src="tec/tec2.png" />
+    <file src="tec/tec3.png" />
+    <file src="tec/tec4.png" />
+
+    <min_mta_version client="1.5.6" server="1.5.6" />
+</meta>
