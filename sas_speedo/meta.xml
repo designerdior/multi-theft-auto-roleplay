@@ -1,0 +1,31 @@
+<meta>
+    <script src="sourceC.lua" type="client" />
+    <script src="sourceS.lua" type="server" />
+    
+    <file src="files/icon.png" />
+    <file src="files/seatbelt0.png" />
+    <file src="files/seatbelt1.png" />
+    <file src="files/indicator.png" />
+    <file src="files/fuelindicator.png" />
+    <file src="files/fuelnum.png" />
+    <file src="files/fuelbase.png" />
+    <file src="files/speedo.png" />
+    <file src="files/rpm.png" />
+    <file src="files/text.png" />
+    <file src="files/circle.png" />
+    <file src="files/lines.png" />
+    <file src="files/lamp.png" />
+    <file src="files/index_jobb.png" />
+    <file src="files/handbrake.png" />
+    <file src="files/index_bal.png" />
+    <file src="files/door.png" />
+    <file src="files/montserrat_regular.otf" />
+    <file src="files/bitsu.ttf" />
+    
+    <!-- Sounds -->
+    <file src="files/seatbelt.mp3" />
+    <file src="files/seatbelton.mp3" />
+    <file src="files/seatbeltoff.mp3" />
+    
+    <min_mta_version client="1.5.6" server="1.5.6" />
+</meta>
