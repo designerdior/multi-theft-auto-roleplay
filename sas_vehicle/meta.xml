@@ -1,0 +1,61 @@
+<meta>
+    <script src="g_functions.lua" type="server" />
+    <export function="isVehicleWindowUp" type="server" />
+    <export function="hasVehicleWindows" type="server" />
+    <export function="hasVehicleRoof" type="server" />
+    
+    <script src="g_functions.lua" type="client" />
+    <script src="sourceC.lua" type="client" />
+    <export function="isVehicleWindowUp" type="client" />
+    <export function="hasVehicleWindows" type="client" />
+    <export function="hasVehicleRoof" type="client" />
+    
+    <script src="vehicle_refillers.lua" type="server" />
+    <script src="s_vehicle_system.lua" type="server" />
+    <script src="s_windows.lua" type="server" />
+    <script src="c_vehicle_rightclick.lua" type="client" />
+    <script src="c_vehicleplate.lua" type="client" />
+    
+    <script src="carNamesG.lua" type="shared" />
+    <export function="getVehicleNames" type="client" />
+    <export function="getVehicleNames" type="server" />
+    
+    <export function="getVehicleNamesByString" type="client" />
+    <export function="getVehicleNamesByString" type="server" />
+    
+    <!-- open veh doors -->
+    <script src="c_carDoor.lua" type="client" />
+    <script src="s_carDoor.lua" type="server" />
+    
+    
+    <!-- sounds -->
+    
+    <file src="files/onDoorOpened.wav" type="client" />
+    <file src="files/onDoorClosed.wav" type="client" />
+    <file src="files/lightswitch.mp3" type="client" />
+    <file src="files/starter.mp3" type="client" />
+    
+    <!-- cveh -->
+    
+    <script src="kocsicontroll_server.lua" type="server" />
+    <script src="kocsicontroll_client.lua" type="client" />
+    
+    <!-- Handbrake -->
+    
+    <file src="files/handBrakePointer.png" />
+    <file src="files/handBrakeBG.png" />
+    <file src="files/kezifek.wav" />
+    <script src="c_handbrake.lua" type="client" />
+    <script src="s_handbrake.lua" type="server" />
+    
+    <!-- exports -->
+    
+    <export function="makeShopVehicle" type="server" />
+    <export function="changeCharacterName" type="server" />
+    <export function="reloadVehicle" type="server" />
+    <export function="loadOneVehicle" type="server" />
+    <export function="addSafe" type="server" />
+    <export function="getSafe" type="server" />
+
+    <min_mta_version client="1.5.6" server="1.5.6" />
+</meta>
