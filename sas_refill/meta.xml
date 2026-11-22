@@ -1,0 +1,33 @@
+<meta>
+    <script src="refillersC.lua" type="client" />
+    <script src="refillersS.lua" type="server" />
+    <script src="mainS.lua" type="server" />
+    <file src="shader.fx" />
+    <file src="textureReplace.fx" />
+    <file src="images/circle.png" />
+    <file src="images/fuel.png" />
+    <file src="images/angelpine.png" />
+    <file src="images/deli.jpg" />
+    <file src="images/eszaki.png" />
+    <file src="images/sf.png" />
+    
+    <file src="models/pisztoly.dff" />
+    <file src="models/pisztoly.txd" />
+    
+    <!-- fonts -->
+    <file src="fonts/counter.ttf" />
+    <file src="fonts/lunabar.ttf" />
+    <file src="fonts/Roboto.ttf" />
+    <file src="fonts/ThermalPrinter.ttf" />
+    
+    <!-- sounds -->
+    
+    <file src="sounds/fuelfill.mp3" />
+    <file src="sounds/fuelover.mp3" />
+    <file src="sounds/fuelpickupesoff.mp3" />
+    <file src="sounds/fuelstart.mp3" />
+    <file src="sounds/sign.mp3" />
+    <file src="sounds/tankfull.mp3" />
+
+    <min_mta_version client="1.5.6" server="1.5.6" />
+</meta>
