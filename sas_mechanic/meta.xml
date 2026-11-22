@@ -1,0 +1,18 @@
+<meta>
+    <script src="sourceC.lua" type="client" />
+    <script src="sourceS.lua" type="server" />
+
+    <file src="files/opensans.ttf" />
+    <file src="files/lift.mp3" />
+    <file src="files/repair.mp3" />
+
+    <file src="files/border.dff" />
+    <file src="files/border.txd" />
+    <file src="files/border.col" />
+
+    <file src="files/emelo.dff" />
+    <file src="files/emelo.txd" />
+    <file src="files/emelo.col" />
+
+    <min_mta_version client="1.5.6" server="1.5.6" />
+</meta>
