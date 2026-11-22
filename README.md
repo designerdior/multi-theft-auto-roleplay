@@ -26,6 +26,7 @@ Je nach Funktion bestehen die Module aus verschiedenen Bestandteilen:
 
 - **Client-Side Lua:** Benutzeroberflächen, clientseitige Funktionen und visuelle Elemente.
 - **Server-Side Lua:** Spiellogik, Datenverarbeitung und serverseitige Funktionen.
+- **Global-Side Source Lua:** Beinhaltet globale Funktionen, Variablen, Definitionen, Konfigurationen und Hilfsfunktionen, die als gemeinsame Grundlage für verschiedene Systeme und Ressourcen dienen.
 - **Assets:** Zusätzliche Dateien wie Bilder, Icons, Texturen, Sounds und weitere benötigte Ressourcen.
 
 Ich versuche, die einzelnen Systeme möglichst übersichtlich und voneinander getrennt aufzubauen, damit sie einfacher erweitert und gewartet werden können.
@@ -33,6 +34,10 @@ Ich versuche, die einzelnen Systeme möglichst übersichtlich und voneinander ge
 ## Technologien
 
 - Lua
+- JSON
+- XML
+- DFF/TXD
+- FX
 - Multi Theft Auto: San Andreas (MTA:SA)
 - MySQL
 - Git / GitHub
