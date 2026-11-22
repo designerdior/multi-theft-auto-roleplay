@@ -1,0 +1,6 @@
+<meta>
+    <info name="SeeMTA SelfieMode" type="script" />
+    <script src="sourceC.lua" type="client" />
+    
+    <export function="callSelfieMode" type="client" />
+</meta>

@@ -1,0 +1,12 @@
+<meta>    
+    <script src="client.lua" type="client" />
+    <script src="server.lua" type="server" />
+
+    <file src="font.ttf" />
+    <file src="RobotoB.ttf" />
+    <file src="RobotoL.ttf" />
+    <file src="Roboto.ttf" />
+    <file src="FontAwesome.otf" />
+
+    <min_mta_version client="1.5.6" server="1.5.6" />
+</meta>

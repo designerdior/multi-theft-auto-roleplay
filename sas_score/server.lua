@@ -1,0 +1,5 @@
+addEvent("sendPMMessage", true)
+addEventHandler("sendPMMessage", getRootElement(), function(player, target, msg)
+	outputChatBox("#77b64c["..getPlayerName(player).." -> ÉN] #EEEEEE"..msg, target, 255,255,255,true)
+	outputChatBox("#77b64c[ÉN -> "..getPlayerName(target).."] #EEEEEE"..msg, player, 255,255,255,true)
+end)
