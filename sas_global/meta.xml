@@ -1,0 +1,82 @@
+<meta>
+    <export function="getOOCState" type="server" />
+    <export function="setOOCState" type="server" />
+    <export function="sendMessageToAdmins" type="server" />
+    <export function="sendMessageToCreator" type="server" />
+    <export function="getNearbyElements" type="server" />
+    <export function="sendLocalText" type="server" />
+    <export function="sendLocalMeAction" type="server" />
+    <export function="sendLocalDoAction" type="server" />
+    <export function="findPlayerByPartialNick" type="client" />
+    <export function="findPlayerByPartialNick" type="server" />
+    <export function="sendLocalTry" type="server" />
+    
+    <script src="admin_globals.lua" type="server" />
+    <export function="isPlayerSeged" type="server" />
+    <export function="isPlayerAdmin" type="server" />
+    <export function="isPlayerFullAdmin" type="server" />
+    <export function="isPlayerSuperAdmin" type="server" />
+    <export function="isPlayerHeadAdmin" type="server" />
+    <export function="isPlayerLeadAdmin" type="server" />
+    <export function="getPlayerAdminLevel" type="server" />
+    <export function="getPlayerAdminTitle" type="server" />
+    <export function="isPlayerScripter" type="server" />
+    <export function="getAdmins" type="server" />
+    
+    <script src="admin_globals.lua" type="client" />
+    <export function="isPlayerSeged" type="client" />
+    <export function="isPlayerAdmin" type="client" />
+    <export function="isPlayerFullAdmin" type="client" />
+    <export function="isPlayerSuperAdmin" type="client" />
+    <export function="isPlayerHeadAdmin" type="client" />
+    <export function="isPlayerLeadAdmin" type="client" />
+    <export function="getPlayerAdminLevel" type="client" />
+    <export function="getPlayerAdminTitle" type="client" />
+    <export function="getAccurateAdminTitle" type="client" />
+    <export function="isPlayerScripter" type="client" />
+    <export function="getAdmins" type="client" />
+    
+    <script src="c_vehicle_globals.lua" type="server" />
+    <script src="c_vehicle_globals.lua" type="client" />
+    <export function="getVehicleVelocity" type="server" />
+    <export function="getVehicleVelocity" type="client" />
+    <export function="relateVelocity" type="server" />
+    <export function="relateVelocity" type="client" />
+    
+    <script src="s_vehicle_globals.lua" type="server" />
+    <export function="getVehiclesOwnedByCharacter" type="server" />
+    <export function="canPlayerBuyVehicle" type="server" />
+    
+    <export function="giveWeapon" type="server" />
+    <export function="setWeaponAmmo" type="server" />
+    <export function="takeAllWeapons" type="server" />
+    <export function="takeWeapon" type="server" />
+    
+    
+    <script src="country_globals.lua" type="server" />
+    <export function="getPlayerCountry" type="server" />
+    <export function="getPlayerCountryByIP" type="server" />
+    
+    
+    <script src="version_globals.lua" type="server" />
+    <script src="version_globals.lua" type="client" />
+    <export function="getScriptVersion" type="server" />
+    <export function="getScriptVersion" type="client" />
+    <export function="getWebCim" type="server" />
+    <export function="getWebCim" type="client" />
+    
+    
+    <script src="client.lua" type="client" />
+    <script src="c_animation_globals.lua" type="client" />
+    <export function="applyAnimation" type="client" />
+    <export function="removeAnimation" type="client" />
+    
+    <script src="s_animation_globals.lua" type="server" />
+    <export function="applyAnimation" type="server" />
+    <export function="removeAnimation" type="server" />
+    
+    <script src="frakcio_global.lua" type="server" />
+    <export function="SendMessageToTeam" type="server" />
+
+    <min_mta_version client="1.5.6" server="1.5.6" />
+</meta>
