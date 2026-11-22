@@ -1,0 +1,35 @@
+<meta>
+    <file src="files/opensans.ttf" />
+    <file src="typing.png" />
+    
+    <script src="oocC.lua" type="client" />
+    <script src="sourceC.lua" type="client" />
+    <script src="sourceS.lua" type="server" />
+    
+    <script src="chatbubbles_server.lua" type="server" />
+    <script src="chatbubbles_client.lua" type="client" />
+    
+    <export function="trunklateText" type="server" />
+    <export function="localIC" type="server" />
+    <export function="localShout" type="server" />
+
+    <export function="sendLocalDoAction" type="client" />
+    <export function="sendLocalDoAction" type="server" />
+    <export function="sendLocalMeAction" type="client" />
+    <export function="sendLocalMeAction" type="server" />
+    <export function="getNearbyElements" type="server" />
+    
+    <settings>
+        
+        <setting name="*DefaultTime" value="10000" accept="number" desc="The default time every bubble will be visible." />
+        
+        <setting name="*PerCharacterAddition" value="50" accept="number" desc="The time every character in a message adds to the total time visible." />
+        
+        <setting name="*MaxBubbles" value="5" accept="number/false" desc="The max number of bubbles stacked above one&apos;s head. To disable enter &apos;false&apos;." />
+        
+        <setting name="*HideOwn" value="true" accept="true/false" desc="Decides whether players are able to see their own bubbles or not." />
+        
+    </settings>
+
+    <min_mta_version client="1.5.6" server="1.5.6" />
+</meta>
