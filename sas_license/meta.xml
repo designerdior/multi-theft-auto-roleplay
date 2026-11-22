@@ -1,0 +1,16 @@
+<meta>
+    <script src="sourceC.lua" type="client" />
+    <script src="sourceS.lua" type="server" />
+    
+    <file src="files/acceptdecline_inactive.png" />
+    <file src="files/acceptdecline_accept.png" />
+    <file src="files/acceptdecline_decline.png" />
+    <file src="files/quiz_inactive.png" />
+    <file src="files/quiz1.png" />
+    <file src="files/quiz2.png" />
+    <file src="files/quiz3.png" />
+    <file src="files/quiz4.png" />
+    <file src="files/OpenSansSB.ttf" />
+
+    <min_mta_version client="1.5.6" server="1.5.6" />
+</meta>
