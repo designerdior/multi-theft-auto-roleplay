@@ -1,0 +1,48 @@
+﻿<meta>
+    <script src="sourceC.lua" type="client" />
+    
+    <file src="weapon/sniper.dff" />
+    <file src="weapon/sniper.txd" />
+    <file src="weapon/desert.dff" />
+    <file src="weapon/desert.txd" />
+    <file src="weapon/ak.dff" />
+    <file src="weapon/ak.txd" />
+    <file src="weapon/m4.dff" />
+    <file src="weapon/m4.txd" />
+    <file src="weapon/colt45.dff" />
+    <file src="weapon/colt45.txd" />
+    <file src="weapon/katana.dff" />
+    <file src="weapon/katana.txd" />
+    <file src="weapon/mp5.dff" />
+    <file src="weapon/mp5.txd" />
+    <file src="weapon/tec9.dff" />
+    <file src="weapon/tec9.txd" />
+    <file src="weapon/micro_uzi.dff" />
+    <file src="weapon/micro_uzi.txd" />
+    <file src="weapon/cuntgun.dff" />
+    <file src="weapon/cuntgun.txd" />
+    <file src="weapon/chromegun.dff" />
+    <file src="weapon/chromegun.txd" />
+    <file src="weapon/sawnoff.dff" />
+    <file src="weapon/sawnoff.txd" />
+    <file src="weapon/shotgspa.dff" />
+    <file src="weapon/shotgspa.txd" />
+    <file src="weapon/silenced.dff" />
+    <file src="weapon/silenced.txd" />
+    <file src="weapon/shovel.dff" />
+    <file src="weapon/shovel.txd" />
+    <file src="weapon/brass.dff" />
+    <file src="weapon/brass.txd" />
+    <file src="weapon/flowers.dff" />
+    <file src="weapon/flowers.txd" />
+    <file src="weapon/laser.dff" />
+    <file src="weapon/laser.txd" />
+    <file src="weapon/bat2.dff" />
+    <file src="weapon/bat2.txd" />
+    <file src="weapon/satchel.dff" />
+    <file src="weapon/satchel.txd" />
+    <file src="weapon/bomb.dff" />
+    <file src="weapon/bomb.txd" />
+
+    <min_mta_version client="1.5.6" server="1.5.6" />
+</meta>
