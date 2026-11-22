@@ -1,0 +1,69 @@
+<meta>
+    <script src="matrix/complex.lua" type="client" />
+    <script src="matrix/matrix.lua" type="client" />
+    <script src="sourceC.lua" type="client" />
+    
+    <script src="rays/c_rays.lua" type="client" />
+    <script src="water2/c_main.lua" type="client" />
+    <script src="blur/c_radial_blur.lua" type="client" />
+    <script src="cp/c_car_paint.lua" type="client" />
+    <script src="dof/c_dof.lua" type="client" />
+    <script src="hdr/c_contrast.lua" type="client" />
+    <script src="noire/c_noire.lua" type="client" />
+    <script src="noise/c_noise.lua" type="client" />
+    <script src="tex/c_detail.lua" type="client" />
+    <script src="water/c_water.lua" type="client" />
+    <script src="c_rtpool.lua" type="client" />
+    <file src="media/detail04.png" />
+    <file src="media/detail22.png" />
+    <file src="media/detail29.png" />
+    <file src="media/detail35T.png" />
+    <file src="media/detail55.png" />
+    <file src="media/detail58.png" />
+    <file src="media/detail63.png" />
+    <file src="media/detail68.png" />
+    <file src="media/dirty.png" />
+    <script src="rs3/c_roadshine3.lua" type="client" />
+    <file src="cp/defaultgrunge.jpg" />
+    <file src="cp/megagrunge.jpg" />
+    <file src="cp/midgrunge.jpg" />
+    <file src="cp/nogrunge.png" />
+    <file src="images/cube_env256.dds" />
+    <file src="images/cube_env256.jpg" />
+    <file src="images/smallnoise3d.dds" />
+    <file src="images/vignette1.dds" />
+    <file src="images/radial_mask.tga" />
+    <file src="images/waterNoise.dds" />
+    
+    <file src="fx/bloom_combine.fx" />
+    <file src="fx/bloom_extract.fx" />
+    <file src="fx/blurH.fx" />
+    <file src="fx/blurV.fx" />
+    <file src="fx/car_glass.fx" />
+    <file src="fx/car_paint.fx" />
+    <file src="fx/contrast.fx" />
+    <file src="fx/dBlurH.fx" />
+    <file src="fx/dBlurV.fx" />
+    <file src="fx/detail.fx" />
+    <file src="fx/carwash.fx" />
+    <file src="fx/img_refract.fx" />
+    <file src="fx/modulation.fx" />
+    
+    <file src="fx/mta-helper.fx" />
+    <file src="fx/noire.fx" />
+    <file src="fx/noise.fx" />
+    <file src="fx/radial_blur.fx" />
+    <file src="fx/rays.fx" />
+    <file src="fx/rays2.fx" />
+    <file src="fx/rays3.fx" />
+    <file src="fx/rays4.fx" />
+    <file src="fx/rays5.fx" />
+    <file src="fx/roadshine3.fx" />
+    <file src="fx/tex_water.fx" />
+    <file src="fx/water.fx" />
+    
+    <export function="setShaderEnabled" type="client" />
+    <export function="getShaderSetting" type="client" />
+
+    <min_mta_version client="1.5.6" server="1.5.6" />
+</meta>
