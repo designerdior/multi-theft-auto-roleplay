@@ -1,0 +1,40 @@
+﻿<meta>
+    <script src="renderingC.lua" type="client" />
+    <script src="pedC.lua" type="client" />
+    <script src="afkC.lua" type="client" />
+    <script src="sourceS.lua" />
+    <script src="sourceC.lua" type="client" />
+
+    <export function="setPlayerVisibleName" type="server" />
+    <export function="getPlayerVisibleName" type="server" />
+    <export function="setPlayerTag" type="server" />
+    <export function="getPlayerTag" type="server" />
+    <export function="setPlayerTagColor" type="server" />
+    <export function="getPlayerTagColor" type="server" />
+    <export function="setPlayerNameVisibleState" type="server" />
+    <export function="getPlayerNameVisibleState" type="server" />
+    <export function="setPlayerMaskState" type="server" />
+    <export function="getPlayerMaskState" type="server" />
+    <export function="setPlayerNicknameColor" type="server" />
+    <export function="getPlayerNickanmeColor" type="server" />
+    <export function="setPlayerDescription" type="server" />
+    <export function="getPlayerDescription" type="server" />
+    <export function="visibleName" type="server" />
+    <export function="visiblePedName" type="server" />
+
+    <export function="togNames" type="client" />
+
+    <file src="files/myriadproregular.ttf" type="client" />
+    <file src="files/roboto.ttf" type="client" />
+    <file src="files/roboto_light.ttf" type="client" />
+    <file src="files/typing.png" type="client" />
+    <file src="files/afk.png" type="client" />
+    <file src="files/devduty.png" type="client" />
+    <file src="files/foadmin.png" type="client" />
+    <file src="files/adminduty.png" type="client" />
+    <file src="files/owner.png" type="client" />
+    <file src="files/superadmin.png" type="client" />
+    <file src="files/asduty.png" type="client" />
+    
+    <min_mta_version client="1.5.6" server="1.5.6" />
+</meta>
